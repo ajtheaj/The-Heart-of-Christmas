@@ -217,4 +217,23 @@ hr {
   margin: 20px 0; 
 }
 
+/*Video Container */
+.video-container {
+  position: relative;
+  width: 80%; 
+  padding-bottom: 60%;
+  height: 0; 
+  overflow: hidden;
+  max-width: 80%; 
+  margin: 0 auto; 
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+}
+
 
