@@ -1,8 +1,6 @@
 body  
   {
    font-family: Arial, sans-serif;
-   margin: 0;
-   padding: 0;
    background-color: #D5080C;
   }
   
@@ -61,14 +59,6 @@ h1
   margin-bottom: 15px;
 }
 
-
-h2 
-{
-  color: #432E54; 
-  font-family: 'Georgia', serif; 
-  margin-bottom: 15px; 
-}
-
 p {
   color: #904022; 
    font-family:  "Dancing Script", cursive;
@@ -112,12 +102,10 @@ p {
 
 /* Navigation styling */
 nav {
-  position: absolute;
-  bottom: 30px; 
+  position: absolute; /**for overlapping**/
+  bottom: 30px; /**to adjust the position of the nav li**/
   width: 100%; 
   text-align: center;
-  z-index: 10; 
-  
 }
 
 nav ul {
@@ -161,6 +149,7 @@ text-align: center;
  border: none;
  cursor: pointer;
  }
+ 
  button:hover {
  background-color: #49401F;
  }
