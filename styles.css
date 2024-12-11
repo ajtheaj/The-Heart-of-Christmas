@@ -1,6 +1,6 @@
-body  
-  {
+  body  {
    background-color: #D5080C;
+   font-family: "Arial", sans-serif;
   }
   
   .container {
@@ -9,20 +9,20 @@ body
   padding: 20px; 
   width: 90%; 
   border-radius: 10px; 
- 
-}
-    audio {
-  width: 300px;
+  }
+  
+  audio {
+  width: 100%;
   margin-top: 10px;
   border: 2px solid #D5080C;
   border-radius: 10px;
   background-color: #F5F5F5; 
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-}
+  }
 
  /* Header styling */
- header {
- background-image: URL("images/banner-img.png");
+  header {
+  background-image: URL("images/banner-img.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -31,7 +31,7 @@ body
   color: white;
   text-align: center;
   position: relative;
- }
+  }
  
  .recipe-header {
   background-image: url('images/banner-recipe.png');
@@ -49,66 +49,68 @@ body
   background-image: url('images/banner-songs.png');
 }
 
-h1 
-{
+  h1 {
   color: #49401F; 
   font-family: 'Great Vibes', cursive;
-  font-size: 60px; 
+  font-size: 130px; 
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
   margin-bottom: 15px;
-}
+ }
 
-p {
+  p {
   color: #904022; 
-   font-family:  "Dancing Script", cursive;
-   font-weight: 700;
+  font-family:  "Dancing Script", cursive;
+  font-weight: 700;
   font-size: 25px; 
   line-height: 1.4; 
   text-align: center, justify;
   line-height: 1.6;
   margin-bottom: 10px; 
-}
+  }
 
-/*Table*/
+  /*Table*/
   table {
       width: 100%;
       border-collapse: collapse;
       margin: 20px 0;
     }
-    th, td {
+	
+  th, td {
       border: 1px solid #ddd;
       padding: 10px;
       text-align: center;
     }
-    th {
+	
+  th {
       background-color: #D5080C; 
       color: white;
     }
-    img {
+	
+  img {
       width: 100px;
       height: auto;
       border-radius: 10px;
     }
-    td {
+	
+   td {
       vertical-align: top;
     }
 	
-	table img {
+  table img {
   width: 150px; 
   height: auto; 
-}
+  }
 
 
 /* Navigation styling */
-nav {
+  nav {
   position: absolute; /**for overlapping**/
   bottom: 30px; /**to adjust the position of the nav li**/
   width: 100%; 
   text-align: center;
-  font-family: "Arial", sans-serif;
 }
 
-nav ul {
+  nav ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -117,12 +119,12 @@ nav ul {
   gap: 50px; 
 }
 
-nav ul li {
+  nav ul li {
   display: inline;
   margin: 0 15px;
 }
 
-nav ul li a {
+  nav ul li a {
   color: white;
   text-decoration: none;
   font-size: 18px;
@@ -130,84 +132,84 @@ nav ul li a {
   letter-spacing: 2px;
 }
 
-nav ul li a:hover {
+  nav ul li a:hover {
   text-decoration: underline;
 }
 
 
 /* Main content styling */
-main {
-padding: 20px;
-text-align: center;
-}
+  main {
+  padding: 20px;
+  text-align: center;
+  }
 
  /* Form button styling */
- button {
- background-color: #D5080C;
- color: white;
- padding: 10px 20px;
- border: none;
- cursor: pointer;
- }
+  button {
+  background-color: #D5080C;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  }
  
- button:hover {
- background-color: #49401F;
- }
+  button:hover {
+  background-color: #49401F;
+  }
  
  /*Motto Styling*/
 
-.odd-item {
+  .odd-item {
   display: flex;
   flex-direction: row;
   align-items: center;
   text-align: left;
   justify-content: start;
-}
+  }
 
-.odd-item img {
+  .odd-item img {
   margin-right: 20px;
-}
+  }
 
-.even-item {
+  .even-item {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
   text-align: right;
   justify-content: end;
-}
+  }
 
-.even-item img {
+  .even-item img {
   margin-left: 20px;
-}
+  }
 
 /* General Styling for Text and Images */
-.entry-text {
+  .entry-text {
   font-size: 35px;
   color: #904022;
   font-family: "Dancing Script", cursive;
-}
+  }
 
-.entry-img {
-  width: 200px;
-  height: 200px;
-  border-radius: 10px;
-}
+  .entry-img {
+   width: 200px;
+   height: 200px;
+   border-radius: 10px;
+   }
 
 /* Span Styling */
-span {
+  span {
   font-style: italic;
   color: #555;
-}
+  }
 
 /* Horizontal Line */
-hr {
+  hr {
   border: none;
   border-top: 2px solid #D5080C; 
   margin: 20px 0; 
-}
+  }
 
 /*Video Container */
-.video-container {
+  .video-container {
   position: relative;
   width: 80%; 
   padding-bottom: 60%;
@@ -215,12 +217,12 @@ hr {
   overflow: hidden;
   max-width: 80%; 
   margin: 0 auto; 
-}
+  }
 
-.video-container iframe {
+   .video-container iframe {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 80%;
-}
+  }
